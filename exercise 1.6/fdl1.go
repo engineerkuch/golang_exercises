@@ -17,7 +17,7 @@ var palette = []color.Color{
 	color.RGBA{0, 0, 255, 0},
 }
 
-// type ColorIndex uint8
+
 
 const (
 	firstIndex = iota
