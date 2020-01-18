@@ -41,7 +41,7 @@ func lissajous(out io.Writer) {
 		res     = 0.01 // angular resolution
 		size    = 100  // image canvas covers [-size..+size]
 		nframes = 100  // number pf animation frames
-		delay   = 8    // delay between frames in 10ms units
+		delay   = 10    // delay between frames in 10ms units
 	)
 
 	freq := rand.Float64() * 3.0 // relative frequency of y oscillator
